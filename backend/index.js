@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173', // Your frontend URL
+  origin: 'https://fsk-d7x.pages.dev/', // Your frontend URL
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type']
 })); // Enable CORS for all routes
